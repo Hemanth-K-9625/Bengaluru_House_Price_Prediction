@@ -23,78 +23,89 @@ Source: Bangalore House Price Dataset
 -Price
 
 The dataset contains real-world inconsistencies such as missing values, range-based square footage, and outliers, making it suitable for practical data science applications.
+---
+## Tech Stack
 
- Tech Stack
+-Python
 
-Python
+-Pandas
 
-Pandas
+-NumPy
 
-NumPy
+-Matplotlib
 
-Matplotlib
+-Scikit-learn
 
-Scikit-learn
+-Jupyter Notebook
+---
+## Project Workflow
 
-Jupyter Notebook
+-Data loading and initial exploration
 
- Project Workflow
+-Data cleaning and handling missing values
 
-Data loading and initial exploration
+-Feature engineering (price per sqft, location encoding)
 
-Data cleaning and handling missing values
+-Outlier detection using domain knowledge and statistics
 
-Feature engineering (price per sqft, location encoding)
+-Dimensionality reduction
 
-Outlier detection using domain knowledge and statistics
-
-Dimensionality reduction
-
-Model training and evaluation using cross-validation
-
- Model & Evaluation
+-Model training and evaluation using cross-validation
+---
+## Model & Evaluation
 
 Model Used: Linear Regression
 
 Evaluation Method: K-Fold Cross Validation
 
 Linear Regression was chosen due to its strong performance after preprocessing and its interpretability. The model generalizes well to unseen data when combined with proper feature engineering.
-
- Key Insights
+---
+## Key Insights
 
 Location is a major factor influencing house prices.
 
 Data preprocessing has a larger impact on performance than model complexity.
 
 Simpler models can perform effectively when data is well-prepared.
-
- Limitations
+---
+## Limitations
 
 The dataset does not include features such as property age, amenities, or proximity to transport.
 
 Market trends and time-based price fluctuations are not considered.
-
- Future Improvements
+---
+## Future Improvements
 
 Add more real estate features (amenities, floor number, year built).
 
 Experiment with advanced models like Random Forest or XGBoost.
 
 Deploy the model using Flask or FastAPI for real-time predictions.
+---
+## Repository Structure
 
- Repository Structure
 bangalore-home-price-prediction/
-│
-├── data/
-│   └── Bengaluru_House_Data.csv
-│
-├── notebooks/
-│   └── banglore_home_prices_final.ipynb
-│
-├── README.md
-├── requirements.txt
 
- Author
+│
+
+├── data/
+
+│   └── Bengaluru_House_Data.csv
+
+│
+
+├── notebooks/
+
+│   └── banglore_home_prices_final.ipynb
+
+│
+
+├── README.md
+
+├── requirements.txt
+---
+
+## Author
 
 Hemanth Kumar
 Aspiring Data Scientist / ML Engineer
