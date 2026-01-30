@@ -1,24 +1,26 @@
- Bangalore Home Price Prediction
- Project Overview
+# Bangalore Home Price Prediction
+## Project Overview
 
 This project focuses on building an end-to-end machine learning model to predict house prices in Bangalore based on features such as location, total square feet, number of bathrooms, and BHK.
 The goal is to demonstrate a complete data science workflow, from raw data preprocessing to model evaluation.
 
- Dataset
+---
+
+## Dataset
 
 Source: Bangalore House Price Dataset
 
-Features include:
+-Features include:
 
-Location
+-Location
 
-Total square feet
+-Total square feet
 
-Number of bathrooms
+-Number of bathrooms
 
-BHK
+-BHK
 
-Price
+-Price
 
 The dataset contains real-world inconsistencies such as missing values, range-based square footage, and outliers, making it suitable for practical data science applications.
 
